@@ -6,6 +6,7 @@ Estuve usando esta imagen para un proyecto que usaba Microsoft SQL Server, pero 
 la imagen original esta aqui:
 
 https://github.com/gildasio/docker-php-sqlsrv
+
 https://hub.docker.com/r/gjuniioor/php-sqlsrv
 
 Mi imagen modificada esta aqui:
