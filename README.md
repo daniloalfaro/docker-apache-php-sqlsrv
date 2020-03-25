@@ -12,3 +12,15 @@ https://hub.docker.com/r/gjuniioor/php-sqlsrv
 Mi imagen modificada esta aqui:
 
 https://hub.docker.com/r/daniloalfaro/docker-apache-php-sqlsrv
+
+para crear la imagen luego descargarla, en el directorio donde esta la imagen:
+
+docker build . -t apache-php-sqlsrv
+
+Descargarlo de hub docker:
+
+docker pull daniloalfaro/docker-apache-php-sqlsrv:20200325
+
+para ejecutarlo:
+
+docker run -d -p 80:80 -v /home/danilo/projects:/var/www/html daniloalfaro/docker-apache-php-sqlsrv:20200325
